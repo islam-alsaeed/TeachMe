@@ -7,4 +7,4 @@ const StudentSchema = mongoose.Schema({
 
 })
 
-const Student = mongoose.model('Cat', StudentSchema);
+export const Student = mongoose.model('Student', StudentSchema);
